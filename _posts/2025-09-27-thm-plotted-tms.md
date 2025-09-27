@@ -1,5 +1,5 @@
 ---
-title: First Post
+title: TryHackMe: Plotted-TMS Writeup
 date: 2025-09-27 15:00:00 +/-0000
 categories: [THM]
 tags: [enumeration]
@@ -113,6 +113,6 @@ Sat Sep 27 12:44:03 UTC 2025
 www-data@plotted:/var/www/scripts$
 ```
 
-After listening on the other shell and sending the `date` command, I got the response from the server and got access to the `plot_admin` admin account. I then cat'd the user.txt flag.
+After listening on the other shell and sending the `date` command to check if a minute had passed, I got the response from the server and got access to the `plot_admin` admin account. I then cat'd the user.txt flag.
 
 To get root.txt, I just used basic privesc techniques, and realised I could run `doas` as root, and I used [GTFOBins](https://gtfobins.github.io/) guide to echo root.txt file. 
