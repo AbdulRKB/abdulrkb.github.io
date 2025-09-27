@@ -1,5 +1,5 @@
 ---
-title: TryHackMe: Plotted-TMS Writeup
+title: TryHackMe Plotted-TMS Writeup
 date: 2025-09-27 15:00:00 +/-0000
 categories: [THM]
 tags: [enumeration]
