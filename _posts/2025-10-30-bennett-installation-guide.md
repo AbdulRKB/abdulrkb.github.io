@@ -49,5 +49,5 @@ sudo apt install ./Bennett_1.2.16_x86_64_noble.deb
 ## Step 6: Run Bennett 
 Run the following command to run bennett:
 ```
-opt/bennett/bin/start_bennett_151
+/opt/bennett/bin/start_bennett_151
 ```
