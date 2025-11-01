@@ -3,11 +3,11 @@ title: "Huntress CTF 2025 Writeup: Emotional"
 date: 2025-11-01 16:36:48 +0100
 categories: ["Huntress CTF 2025"]
 tags: ["Web", "CTF", "Huntress", "SSTI"]
+image: https://raw.githubusercontent.com/AbdulRKB/img/refs/heads/main/Huntress%20CTF%202025/emotional-1.png
 ---
 
 > Don't be shy, show your emotions! Get emotional if you have to! Uncover the flag.
 ---
-![emotional-1.png](https://raw.githubusercontent.com/AbdulRKB/img/refs/heads/main/Huntress%20CTF%202025/emotional-1.png)
 
 As per the source code given, the website was rendering using ejs. I realised the website was vulnerable to SSTI attacks after it kept resetting upon submitting an SSTI polyglot to `/setEmoji`. 
 

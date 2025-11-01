@@ -3,12 +3,12 @@ title: "Huntress CTF 2025 Writeup: Phasing Through Printers"
 date: 2025-11-01 16:36:48 +0100
 categories: ["Huntress CTF 2025"]
 tags: ["Web", "CTF", "Huntress", "Command Injection"]
+image: https://raw.githubusercontent.com/AbdulRKB/img/refs/heads/main/Huntress%20CTF%202025/phasing-through-printers-1.png
 ---
 
 > I found this printer on the network, and it seems to be running... a weird web page... to search for drivers?
 ---
 
-![phasing-through-printers-1.png](https://raw.githubusercontent.com/AbdulRKB/img/refs/heads/main/Huntress%20CTF%202025/phasing-through-printers-1.png)
 Submitting the form would send a HTTP GET request to `cgi-bin/search.cgi?q=` with parameter `q`. I decided to do some common injections on the input field, and found that it was vulnerable to os command injection.
 
 

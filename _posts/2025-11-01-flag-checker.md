@@ -3,13 +3,13 @@ title: "Huntress CTF 2025 Writeup: Flag Checker"
 date: 2025-11-01 16:36:48 +0100
 categories: ["Huntress CTF 2025"]
 tags: ["Web", "CTF", "Huntress", "Timing Attack"]
+image: https://raw.githubusercontent.com/AbdulRKB/img/refs/heads/main/Huntress%20CTF%202025/flag-checker-1.png
 ---
 
 > We've decided to make this challenge really straight forward. All you have to do is find out the flag!
 
 > Juuuust make sure not to trip any of the security controls implemented to stop brute force attacks...
 ---
-![flag-checker-1.png](https://raw.githubusercontent.com/AbdulRKB/img/refs/heads/main/Huntress%20CTF%202025/flag-checker-1.png)
 
 I used the alert "Brute forcing won't work" as a hint that it was a brute forcing challenge, but what kind of brute force?
 
