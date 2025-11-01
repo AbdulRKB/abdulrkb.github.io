@@ -1,5 +1,5 @@
 ---
-title: "Huntress CTF 2025 Writeup: Flag Checker"
+title: "Huntress CTF 2025 — Flag Checker Write-up"
 date: 2025-11-01 16:36:48 +0100
 categories: ["Huntress CTF 2025"]
 tags: ["Web", "CTF", "Huntress", "Timing Attack"]

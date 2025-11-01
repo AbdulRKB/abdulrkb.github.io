@@ -1,5 +1,5 @@
 ---
-title: "Huntress CTF 2025 Writeup: Emotional"
+title: "Huntress CTF 2025 — Emotional Write-up"
 date: 2025-11-01 16:36:48 +0100
 categories: ["Huntress CTF 2025"]
 tags: ["Web", "CTF", "Huntress", "SSTI"]
