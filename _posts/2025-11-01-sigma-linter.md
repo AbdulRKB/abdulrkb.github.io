@@ -6,8 +6,8 @@ tags: ["Web", "CTF", "Huntress", "Deserialization"]
 image: https://raw.githubusercontent.com/AbdulRKB/img/refs/heads/main/Huntress%20CTF%202025/sigma-linter-1.png
 ---
 
->Oh wow, another web app interface for command-line tools that already exist!
->This one seems a little busted, though...
+> Oh wow, another web app interface for command-line tools that already exist!
+> This one seems a little busted, though...
 ---
 
 I learnt that the webapp was validating yaml, and so I tried to carry out a deserialization attack.
